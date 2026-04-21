@@ -1,7 +1,7 @@
 _G.LibFunData = nil
 _G.LibFun_Verified = false
 
-local SOURCE_URL = "https://gist.githubusercontent.com/KontraPJL/a1fe8f8a445997a57afa00bc82c3417b/raw/23213db48ee2bc0cf149d6ca2bbb1f6a2a30b34a/def.luau"
+local SOURCE_URL = "https://gist.githubusercontent.com/canaryboiola-sys/fa441c69799548d6c8ed8179c28e050e/raw/2b8adbb21df52201dfe15f3d1f67389bd1f16a9c/gistfile1.txt"
 
 local domain = string.match(SOURCE_URL, "https://([^/]+)")
 if domain ~= "gist.githubusercontent.com" then return end
